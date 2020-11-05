@@ -1,7 +1,7 @@
 
 #' Check and set up initial values for vaccine model
 #'
-#' @inheritParams run
+#' @inheritParams get_nimue_parameters
 #'
 #' @return Checked initial values data.frame
 init <- function(population, seeding_cases, seeding_age_order = NULL){

@@ -2,6 +2,8 @@
 
 export(beta_est_infectiousness)
 export(format)
+export(get_nimue_parameters)
+export(parameters)
 export(run)
 export(strategy_matrix)
 importFrom(magrittr,"%>%")
